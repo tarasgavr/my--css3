@@ -1,0 +1,84 @@
+/* Урок 4 */
+/* Завдання 1 */
+a[href] {
+    background: #fff;
+}
+/* Завдання 2 */
+*[value] {
+    color: #ff0;
+}
+/* Завдання 3 */
+li[value="3"] {
+    background: #f00;
+}
+/* Завдання 4 */
+button[class~="primary"] {
+    background: #00f;
+}
+/* Завдання 5 */
+button[class|="secondary"] {
+    background: #f00;
+}
+/* Завдання 6 */
+li[class^="b"] {
+    background: #fff;
+    color: #0f0;
+}
+/* Завдання 7 */
+li[class*="on"] {
+    background: #fff;
+    color: #0f0;
+}
+/* Завдання 8 */
+*[class*="s"] {
+    background: #fff;
+    color: #00f;
+}
+/* Завдання 9 */
+h2::first-letter {
+    color: #f00;
+}
+/* Завдання 10 */
+p::first-line {
+    background: #ff0;
+}
+/* Завдання 11 */
+input::placeholder {
+    background: #f00;
+}
+/* Завдання 12 */
+li::before {
+    content: '\25C2';
+}
+/* Завдання 13 */
+li::after {
+    content: '\25B8';
+}
+/* Завдання 14 */
+p::first-line {
+    background: #ff0;
+}
+/* Завдання 15 */
+input::placeholder {
+    background: #f00;
+}
+/* Завдання 16 */
+li::before {
+    content: '\25C2';
+}
+/* Завдання 17 */
+li::after {
+    content: '\25B8';
+}
+/* Завдання 18 */
+p::first-line {
+    background: #ff0;
+}
+/* Завдання 19 */
+input::placeholder {
+    background: #f00;
+}
+/* Завдання 20 */
+li::before {
+    content: '\25C2';
+}
