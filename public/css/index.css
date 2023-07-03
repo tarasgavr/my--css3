@@ -1,84 +1,90 @@
 /* Урок 4 */
 /* Завдання 1 */
-a[href] {
-    background: #fff;
-}
-/* Завдання 2 */
-*[value] {
-    color: #ff0;
-}
-/* Завдання 3 */
-li[value="3"] {
-    background: #f00;
-}
-/* Завдання 4 */
-button[class~="primary"] {
-    background: #00f;
-}
-/* Завдання 5 */
-button[class|="secondary"] {
-    background: #f00;
-}
-/* Завдання 6 */
-li[class^="b"] {
-    background: #fff;
-    color: #0f0;
-}
-/* Завдання 7 */
-li[class*="on"] {
-    background: #fff;
-    color: #0f0;
-}
-/* Завдання 8 */
-*[class*="s"] {
-    background: #fff;
-    color: #00f;
-}
-/* Завдання 9 */
-h2::first-letter {
+.btn:hover {
+    background: #ff0;
     color: #f00;
 }
+/* Завдання 2 */
+h1:hover {
+    background-color: #0f0;
+}
+/* Завдання 3 */
+.link:visited {
+    color: #ff0;
+}
+/* Завдання 4 */
+#sidebar:link {
+    color: #f00;
+}
+/* Завдання 5 */
+.btn:active {
+    background: #00f;
+}
+/* Завдання 6 */
+.btn:focus {
+    background: orange;
+    color: orange;
+}
+/* Завдання 7 */
+#target:target {
+    color: #fff;
+    background-color: #0f0;
+}
+/* Завданняv 8 */
+#checkbox:checked {
+    color: #fff;
+    background-color: #00f;
+}
+/* Завдання 9 */
+*:lang(uk) {
+    color: #00f;
+}
 /* Завдання 10 */
-p::first-line {
+.form-control:enabled {
     background: #ff0;
+    color: #f00;
 }
 /* Завдання 11 */
-input::placeholder {
-    background: #f00;
-}
-/* Завдання 12 */
-li::before {
-    content: '\25C2';
-}
-/* Завдання 13 */
-li::after {
-    content: '\25B8';
-}
-/* Завдання 14 */
-p::first-line {
+input:disabled {
     background: #ff0;
 }
+/* Завдання 12 */
+input:not(:read-only) {
+    background-color: #ff0;
+}
+/* Завдання 13 */
+input:read-only {
+    background-color: #ff0;
+}
+/* Завдання 14 */
+input[type='text']:valid {
+    background: #0f0;
+}
+input[type='text']:invalid {
+    background: #f00;
+}
 /* Завдання 15 */
-input::placeholder {
+textarea:optional {
     background: #f00;
 }
 /* Завдання 16 */
-li::before {
-    content: '\25C2';
+input[type='number']:out-of-range {
+    color: #f00;
 }
 /* Завдання 17 */
-li::after {
-    content: '\25B8';
+input[type='number']:in-range {
+    color: #0f0;
 }
 /* Завдання 18 */
-p::first-line {
-    background: #ff0;
-}
-/* Завдання 19 */
-input::placeholder {
+input[type='text']:placeholder-shown {
     background: #f00;
 }
+/* Завдання 19 */
+button:focus-within {
+    background: #ff0;
+    color: #fff;
+}
 /* Завдання 20 */
-li::before {
-    content: '\25C2';
+form:invalid {
+    background-color: #f00;
 }
