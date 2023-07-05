@@ -62,9 +62,16 @@
 	display: none;
 }
 /* Завдання 6 */
-.btn:focus {
-    background: orange;
-    color: orange;
+.task_6 h1 {
+	outline: 3px double blue;
+    outline-offset: 10px;
+}
+.task_6 div {
+    border: 3px dashed #f00;
+}
+.task_6 button {
+    border-radius: 25px;
+    text-shadow: 2px 2px 10px #888888;
 }
 /* Завдання 7 */
 #target:target {
