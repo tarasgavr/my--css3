@@ -1,23 +1,65 @@
 /* Завдання 1 */
-.btn:hover {
-    background: #ff0;
-    color: #f00;
+.task_1 h1 {
+	color: #0f0;
+}
+.task_1 p {
+	background-color: #f00;
+}
+.task_1 button {
+	-webkit-text-stroke: 1px #000;
 }
 /* Завдання 2 */
-h1:hover {
-    background-color: #0f0;
+.task_2 h1 {
+	direction: rtl;
+}
+.task_2 p {
+	text-align: right;
+}
+.task_2 button {
+	text-transform: uppercase;
 }
 /* Завдання 3 */
-.link:visited {
-    color: #ff0;
+.task_3 h1 {
+	writing-mode: vertical-lr;
+}
+.task_3 pre {
+	tab-size: 4;
+}
+.task_3 button {
+	letter-spacing: 2px;
+    text-decoration: underline;
 }
 /* Завдання 4 */
-#sidebar:link {
-    color: #f00;
+.task_4 h1 {
+	font-size: 50px;
+    font-style: italic;
+}
+.task_4 p {
+	font-family: 'Open Sans';
+    font-display: swap;
+    font-weight: 700;
 }
 /* Завдання 5 */
-.btn:active {
-    background: #00f;
+.task_5 div {
+	margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+}
+.task_5 button {
+	margin: 10px;
+    padding: 10px;
+    box-sizing: content-box;
+}
+.task_5 input {
+	min-width: 150px;
+    min-height: 45px;
+    max-width: 300px;
+    max-height: 80px;
+    background-color: gray;
+}
+.task_5 p {
+	display: none;
 }
 /* Завдання 6 */
 .btn:focus {
